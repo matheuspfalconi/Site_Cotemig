@@ -25,7 +25,7 @@ https://www.cotemig.com.br/
 # Preview
 
 ![Captura de Tela 2023-01-12 às 16 28 06](https://user-images.githubusercontent.com/33550514/212162595-eba1704e-4151-4b31-8e36-17f5f3f34f1d.png)
-![Captura de Tela 2023-01-12 às 16 28 18](https://user-images.githubusercontent.com/33550514/212162627-07a10a83-52c0-41b1-9df4-955b31f2c13b.png)
+![Captura de Tela 2023-01-12 às 16 29 33](https://user-images.githubusercontent.com/33550514/212162856-039ad894-ad8c-49d8-8adb-cdc203c51568.png)
 
 # Author
 
