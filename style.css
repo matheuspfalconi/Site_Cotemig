@@ -1,0 +1,312 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+header {
+	width: 100%;
+	height: auto;
+	position: fixed;
+}
+
+.contact_header {
+	display: flex;
+	justify-content: center;
+	padding: 10px 0;
+
+	font-size: 1em;
+
+	background-color: black;
+}
+
+.contact_header > a {
+	color: white;
+}
+
+nav {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 8px 150px;
+
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.logo_nav {
+	width: 200px;
+	height: auto;
+}
+
+.logo_nav > img {
+	width: 200px;
+	height: auto;
+}
+
+.list_links_nav {
+	display: flex;
+
+	margin-top: 10px;
+	column-gap: 30px;
+}
+
+.list_links_nav a {
+	color: white;
+}
+
+.list_links_nav > li:hover > a {
+	color: #4FAB2A;
+	transition: 0.3s;
+}
+
+.item_sublist {
+	display: flex;
+	flex-wrap: nowrap;
+	column-gap: 10px;
+	color: white;
+}
+
+.item_sublist:hover {
+	color: #4FAB2A;
+	transition: 0.3s;
+}
+
+.item_sublist:hover > .div_expandMore {
+	background-color: #4FAB2A;
+	transition: 0.3s;
+}
+
+.div_expandMore {
+	width: 15px;
+	height: 15px;
+	margin-top: 2px;
+
+	background-color: dimgrey;
+	border-radius: 50px;
+}
+
+.div_expandMore > span {
+	color: white;
+	font-size: 1em;
+}
+
+.sublist_links_nav {
+	display: none;
+}
+
+#line_nav {
+	width: 2px;
+	height: 30px;
+	border-left: 1px dotted white;
+
+	margin-top: -5px;
+}
+
+.restrict_area {
+	display: flex;
+	flex-wrap: nowrap;
+	column-gap: 5px;
+}
+
+.restrict_area > span {
+	margin-top: -2px;
+	font-size: 1.3em;
+}
+
+.restrict_area > p:hover {
+	color: #4FAB2A;
+	transition: 0.3s;
+}
+
+/*----------------*/
+
+main {
+
+}
+
+.section_banner {
+	width: 100%;
+	height: 540px;
+
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: scroll;
+}
+
+.banner {
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	padding: 0 150px;
+
+	color: white;
+}
+
+.banner_one {
+	background-image: url("https://www.cotemig.com.br/static/course/desktopimagefull-1666281205435.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.banner_two {
+	background-image: url("https://www.cotemig.com.br/static/courseType/desktopimagefull-1621255560654.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.banner_hidden {
+	display: none;
+}
+
+.content_banner {
+	width: 100%;
+	height: auto;
+}
+
+.title_banner {
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+.subtitle_banner {
+	margin: 30px 0;
+	font-size: 1.1em;
+}
+
+.content_banner > a > input {
+	width: 330px;
+	height: 45px;
+
+	background-color: #4FAB2A;
+	color: white;
+	cursor: pointer;
+
+	border: none;
+	border-radius: 10px;
+}
+
+.content_banner > a:hover > input {
+	background-color: #55B82E;
+	transition: 0.3s;
+}
+
+.counter_banner {
+	display: flex;
+	flex-wrap: nowrap;
+	column-gap: 5px;
+	margin-top: 30px;
+}
+
+.dot_counter {
+	width: 10px;
+	height: 10px;
+	border-radius: 50px;
+	background-color: white;
+}
+
+/*----------------*/
+
+.section_cursos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.section_cursos > h1 {
+	width: 100%;
+	padding-bottom: 5px;
+}
+
+.section_cursos > p {
+	width: 550px;
+	margin-bottom: 30px;
+}
+
+.div_list_cursos {
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	column-gap: 20px;
+	justify-content: center;
+}
+
+.div_list_cursos > a {
+	color: black;
+}
+
+.list_cursos {
+	width: 270px;
+	height: auto;
+
+	border-radius: 15px;
+	box-shadow: 0 0 10px lightgray;
+}
+
+.img_list_cursos {
+	width: 100%;
+	height: 160px;
+	border-radius: 15px 15px 0 0;
+	
+	background-image: url("https://www.cotemig.com.br/static/courseType/desktopimage-1665520421086.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.dark_img {
+	width: 270px;
+	height: 160px;
+	position: absolute;
+	margin-top: -160px;
+	border-radius: 15px 15px 0 0;
+
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.list_cursos > p {
+	margin-left: 10px;
+	font-weight: bold;
+
+	font-size: 1.3em;
+	color: white;
+	position: absolute;
+	margin-top: -40px;
+}
+
+.item_curso {
+	width: 100%;
+	height: 60px;
+
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+.item_curso:hover > p {
+	color: #4FAB2A;
+	transition: 0.3s;
+}
+
+.img_curso {
+	width: 40px;
+	height: 40px;
+	border-radius: 10px;
+	margin-left: 10px;
+
+	background-image: url("https://www.cotemig.com.br/static/courseType/desktopimage-1665520421086.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.item_curso > p {
+	width: 200px;
+	font-size: 0.9em;
+	text-align: left;
+	padding-left: 10px;
+}
