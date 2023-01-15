@@ -6,6 +6,7 @@ header {
 	width: 100%;
 	height: auto;
 	position: fixed;
+	z-index: 1000;
 }
 
 .contact_header {
@@ -121,7 +122,8 @@ nav {
 /*----------------*/
 
 main {
-
+	width: 100%;
+	height: auto;
 }
 
 .section_banner {
@@ -211,7 +213,7 @@ main {
 
 /*----------------*/
 
-.section_cursos {
+.section_cursos, .section_unidades, .section_novidades {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -219,17 +221,18 @@ main {
 	padding: 20px 0;
 }
 
-.section_cursos > h1 {
+.section_cursos > h1, .section_unidades > h1, .section_novidades > h1 {
 	width: 100%;
 	padding-bottom: 5px;
 }
 
-.section_cursos > p {
-	width: 550px;
+.section_cursos > p, .section_unidades > p {
+	width: 700px;
 	margin-bottom: 30px;
+	font-size: 1.2em
 }
 
-.div_list_cursos {
+.div_list_cursos, .div_list_unidades, .div_list_novidades {
 	width: 100%;
 	display: flex;
 	flex-wrap: nowrap;
@@ -264,7 +267,7 @@ main {
 	height: 160px;
 	position: absolute;
 	margin-top: -160px;
-	border-radius: 15px 15px 0 0;
+	border-radius: 10px 10px 0 0;
 
 	background-color: rgba(0, 0, 0, 0.5);
 }
@@ -309,4 +312,160 @@ main {
 	font-size: 0.9em;
 	text-align: left;
 	padding-left: 10px;
+}
+
+/*----------------*/
+
+.div_list_unidades {
+	height: 370px;
+	align-items: center;
+}
+
+.item_unidades {
+	width: 360px;
+	height: 320px;
+
+	box-shadow: 0 0 10px lightgray;
+	border-radius: 10px;
+	cursor: pointer;
+	text-align: initial;
+}
+
+.item_unidades:hover {
+	height: 330px;
+	box-shadow: 0 0 10px gray;
+	transition: 0.3s;
+}
+
+.item_unidades > img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px 10px 0 0;
+	margin-bottom: 10px;
+}
+
+.text_unidade {
+	width: 100%;
+	height: auto;
+	padding: 10px 0 0 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.name_unidade {
+	width: 100%;
+	font-size: 1.2em;
+	margin-bottom: 10px;
+}
+
+.text_unidade > span {
+	font-size: 1.1em;
+	color: #4FAB2A;
+	background-color: #E9F6E7;
+	padding: 3px;
+	border-radius: 50px;
+}
+
+.end_unidade {
+	margin-left: 5px;
+	color: dimgray;
+}
+
+.desc_unidade {
+	margin: 10px 0 0 30px;
+	color: dimgray;
+}
+
+/*----------------*/
+
+.section_atendimento {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 0;
+}
+
+.title_atendimento {
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-bottom: 10px;
+}
+
+.section_atendimento > span {
+	position: absolute;
+	margin-left: -330px;
+	background-color: #E9F6E7;
+	color: #4FAB2A;
+	font-size: 2.2em;
+	border-radius: 50px;
+	padding: 10px;
+}
+
+.number_atendimento {
+	font-weight: bold;
+	font-size: 2em;
+	color: #4FAB2A;
+}
+
+/*----------------*/
+
+.div_list_novidades {
+	margin: 30px 0;
+}
+
+.item_novidades {
+	width: 280px;
+	height: 320px;
+
+	background-image: url("https://www.cotemig.com.br/static/blog/mobileimagefull-1667244666825.png");
+	background-size: cover;
+	background-position: center;
+
+	box-shadow: 0 0 10px lightgray;
+	border-radius: 10px;
+	color: white;
+	text-align: initial;
+}
+
+.item_novidades:hover {
+	background-size: 120%;
+}
+
+.dark_novidade {
+	width: 280px;
+	height: 320px;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	z-index: 1;
+}
+
+.text_novidade {
+	width: 100%;
+	height: 100%;
+	padding: 15px;
+
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-end;
+	position: relative;
+	z-index: 2;
+}
+
+.date_novidade {
+	margin-top: 10px;
+	color: darkgray;
+	font-size: 0.825em
+}
+
+/*----------------*/
+
+footer {
+	width: 100%;
+	height: 400px;
+	padding: 30px 150px;
+	background-color: #151515;
 }
