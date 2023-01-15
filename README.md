@@ -10,7 +10,7 @@ Html e CSS
 
 ==================
 
-Clone Alura's site created to showcase my skills
+Clone Cotemig site created to showcase my skills
 
 I tried to keep all possible standards that I found on the internet. Throughout the project, you will realize that some images were improvised.
 
