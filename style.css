@@ -2,6 +2,8 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
+/*-------Header--------*/
+
 header {
 	width: 100%;
 	height: auto;
@@ -39,7 +41,7 @@ nav {
 	height: auto;
 }
 
-.logo_nav > img {
+.logo_nav > a > img {
 	width: 200px;
 	height: auto;
 }
@@ -119,9 +121,9 @@ nav {
 	transition: 0.3s;
 }
 
-/*----------------*/
+/*--------Page Home--------*/
 
-main {
+.main_home, .main_unidades {
 	width: 100%;
 	height: auto;
 }
@@ -461,11 +463,176 @@ main {
 	font-size: 0.825em
 }
 
-/*----------------*/
+/*--------Page Unidades--------*/
+
+.main_unidades {
+	padding-top: 110px;
+}
+
+.main_unidades > .section_atendimento {
+	margin-bottom: 30px;
+}
+
+/*--------Footer--------*/
 
 footer {
 	width: 100%;
-	height: 400px;
+	height: auto;
 	padding: 30px 150px;
 	background-color: #151515;
 }
+
+.div_site_map {
+	width: 100%;
+	height: auto;
+	padding: 20px 0 30px 0;
+	display: flex;
+	justify-content: center;
+	flex-wrap: nowrap;
+	column-gap: 50px;
+	border-bottom: 1px solid dimgray;
+}
+
+.div_site_map > div {
+	height: auto;
+}
+
+.footer_title {
+	font-size: 1.1em;
+	margin-bottom: 20px;
+	padding: 0px 10px;
+	color: white;
+}
+
+.list_links_footer > a {
+	color: darkgray;
+}
+
+.list_links_footer > a > li {
+	margin-bottom: 10px;
+	font-size: 0.825em;
+	padding: 5px 10px;
+	list-style: none;
+}
+
+.list_links_footer > a > li:hover {
+	background-color: #212121;
+	border-radius: 10px;
+}
+
+.footer_about {
+	width: 150px;
+}
+
+.footer_cursos {
+	width: 250px;
+}
+
+.footer_outros {
+	width: 200px;
+}
+
+.footer_start {
+	width: 400px;
+}
+
+.desc_start {
+	color: darkgray;
+}
+
+.title_start {
+	font-size: 1.1em;
+	margin-bottom: 20px;
+	color: white;
+}
+
+.button_start {
+	width: 100%;
+	height: 50px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+	background-color: #4FAB2A;
+	cursor: pointer;
+}
+
+.button_start:hover {
+	background-color: #55B82E;
+	transition: .3s;
+}
+
+.div_social {
+	width: 100%;
+	height: auto;
+	padding: 20px 0;
+	display: flex;
+	justify-content: center;
+	flex-wrap: nowrap;
+	column-gap: 20px;
+}
+
+.footer_logo {
+	width: 400px;
+	font-size: 0.825em;
+	color: dimgray;
+}
+
+.footer_logo > a > img {
+	width: 130px;
+	margin-bottom: 20px;
+}
+
+.footer_colegio {
+	width: 400px;
+}
+
+.footer_faculdade {
+	width: 400px;
+}
+
+.list_footer_social {
+	margin-left: 10px;
+	column-gap: 15px;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.list_footer_social > a > li {
+	text-align: center;
+	color: dimgray;
+	font-size: 0.825em;
+}
+
+.list_footer_social > a > li:hover > span {
+	color: white;
+	transition: .3s;
+}
+
+.div_img_social {
+	width: 70px;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	margin-bottom: : 2px;
+}
+
+.facebook > img, .linkedin > img {
+	height: 30px;
+}
+
+.instagram > img {
+	height: 25px;
+}
+
+.twitter > img {
+	height: 40px;
+}
+
+.facebook {background-color: #3B5998}
+.instagram {background-color: white}
+.linkedin {background-color: #297BB9}
+.twitter {background-color: #40ABEC}
